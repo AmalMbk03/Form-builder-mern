@@ -15,6 +15,7 @@ const pageSchema = new Schema({
   },
   link: {
     type: String,
+    required : true,
   },
   createdAt: {
     type: Date,
