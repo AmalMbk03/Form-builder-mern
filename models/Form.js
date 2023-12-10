@@ -5,7 +5,7 @@ const formSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'User'
   },
-  pages: [
+  pageList: [
     {
       type: Schema.Types.ObjectId,
       ref: 'Page'
@@ -13,7 +13,6 @@ const formSchema = new Schema({
   ],
   title: {
     type: String,
-    required: true
   },
   questions: [
     {
